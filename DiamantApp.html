@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Diamantapp</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <h1>Online Karaat Berekening</h1>
+
+
+        <div class="vader">
+            
+            <div class="son">
+
+
+                <label id="inputText">Gewicht Invoeren (in gram)</label>
+                
+                <input inputmode="numeric" min="1" max="1000" id="invoerveld"><br>
+
+                <input type="button" id="click" value="Berekeing" onclick="calculation()">
+
+                <p id="kraat"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script>
+        let invoer = document.getElementById("invoerveld");
+
+        let kraat = document.getElementById("kraat");
+
+        function calculation() {
+
+            kraat.innerHTML = "Totaal = " + invoer.value / 0.2 + " Karaat.";
+
+        }
+
+    </script>
+ 
+</body>
+
+</html>

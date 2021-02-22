@@ -1,0 +1,79 @@
+.vader {
+    background: transparent;
+    height: 150px;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.son {
+    text-align: center;
+    background-image: url(diamantes.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    width: 120px;
+    margin: 20% 0% 0% 0%;
+    border-color: beige;
+    background-color: aliceblue;
+    padding: 5% 8% 5% 8%;
+    border-radius: 80px;
+
+}
+
+body {
+    background-image: url('diamants-stages.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+#click {
+    
+    background-color: #889ccf;
+    border-color: #889ccf;
+    margin: 10% 0% 0% 0%;
+    padding: 5% 20% 5% 20%;
+ 
+}
+
+#inputText {
+    text-align: center;
+    font-family: sans-serif;
+    color: darkorchid;
+    font-weight: bold;
+    overflow: hidden;
+    font-size: 14px;
+    
+
+}
+
+#kraat {
+    /*margin-left: 30%;*/
+}
+
+h1 {
+    
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: blueviolet;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: #889ccf;
+    margin: 120px 350px 0px 350px;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #5878ca;
+
+}
+
+#invoerveld{
+    
+    text-align: center;
+    border-color: darkmagenta;
+    margin: 09% 0% 0% -15%;
+}
